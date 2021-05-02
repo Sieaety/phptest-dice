@@ -1,0 +1,8 @@
+[02-May-2021 01:52:08 UTC] PHP Parse error:  syntax error, unexpected '"You rolled a: "' (T_CONSTANT_ENCAPSED_STRING) in /home/kzorncom/public_html/phptest-dice/dice.php on line 37
+[02-May-2021 01:52:30 UTC] PHP Parse error:  syntax error, unexpected '"</div>"' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ',' in /home/kzorncom/public_html/phptest-dice/dice.php on line 40
+[02-May-2021 02:15:53 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/kzorncom/public_html/phptest-dice/dice.php on line 72
+[02-May-2021 02:16:44 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/kzorncom/public_html/phptest-dice/dice.php on line 73
+[02-May-2021 03:46:40 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/kzorncom/public_html/phptest-dice/convert.php on line 15
+[02-May-2021 17:28:19 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/kzorncom/public_html/phptest-dice/dice.php on line 35
+[02-May-2021 19:04:20 UTC] PHP Warning:  A non-numeric value encountered in /home/kzorncom/public_html/phptest-dice/convert.php on line 37
+[02-May-2021 19:13:40 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/kzorncom/public_html/phptest-dice/convert.php on line 65

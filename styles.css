@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+body {
+  background-image: url("img/rolling-dices.png");
+  background-repeat: repeat;
+  font-family: sans-serif;
+}
+
+img {
+  width: 4vw;
+  height: 4vw;
+}
+
+
+/* styling for main div on dice.php */
+#container {
+  background-color: #fff;
+  border-radius: 1vw 1vw 0vw 0vw;
+  text-align: center;
+  margin: auto;
+  margin-top: 5vw;
+  width: 50%;
+  border-bottom: dashed;
+  padding: 2vw;
+}
+
+
+
+/* styling for div that contains form for rolling again on dice.php */
+#reroll {
+  background-color: #fff;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 5vw;
+  width: 50%;
+  border-radius: 0vw 0vw 01vw 1vw;
+  padding: 2vw;
+}
+
+
+/* styling for div that contains form for rolling on index.html */
+#roll {
+  background-color: #fff;
+  text-align: center;
+  margin: auto;
+  margin-top: 5vw;
+  width: 50%;
+  border-radius: 1vw;
+  padding: 2vw;
+  margin-bottom: 18vw;
+}
+
+
+/* styling for div that contains all of the dice roll results on dice.php*/
+#dice {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+/* styling for div of each die roll on dice.php*/
+.die {
+  padding: 1vw;
+}
+
+h1 {
+  font-size: 5vw;
+  font-family: 'Krona One', sans-serif;
+}
+
+h2 {
+  font-size: 2vw;
+  font-family: 'Krona One', sans-serif;
+}
+
+/* footer CSS */
+
+#footer {
+	margin: 0;
+	width: 100vw;
+	background-color: #000;
+	color: white;
+	text-align: center;
+  position:fixed;
+  bottom:0;
+}
+
+#footer p {
+	margin: 0;
+	padding: 1vw;
+
+}
+
+#footer a {
+	color: white;
+}

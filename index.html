@@ -1,36 +1,46 @@
-
 <!DOCTYPE html>
 <html>
 
 <head>
 
-	<!-- meta tags and title -->
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Dice Roll</title>
+  <!-- meta tags and title -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dice Roll</title>
 
-	<!-- external and internal CSS -->
-	<link rel="stylesheet" href="stylesheet.css" media="all">
-	<style>
-		/* in-file CSS here */
-	</style>
+  <!-- external and internal CSS -->
+  <link rel="stylesheet" href="styles.css" media="all">
+  <style>
+    /* in-file CSS here */
+  </style>
 
-	<!-- external and internal JavaScript -->
-	<script type="text/javascript" src="scripts.js" defer></script>
-	<script>
-		// in-page JavaScript here
-	</script>
+
 
 </head>
 
 <body>
 
-<form action="dice.php" method="get">
-Number of Dice: <input type="number" name="dice">
-<input type="submit">
-</form>
-  
+  <div id="roll">
 
+    <h1>Dice Roll</h1>
+    <p>Enter the number of dice you'd like to roll below.</p>
+
+    <!-- form that allows user to input number of dice they want to roll, input is then processed in dice.php -->
+    <form action="dice.php" method="get">
+      Number of Dice <input type="number" name="dice" min="0">
+      <input type="submit" value="Roll">
+    </form>
+
+
+  </div>
+
+<!-- footer block start -->
+	<div id="footer">
+		<p>Images by <a href="https://delapouite.com/" title="Delapouite">Delapouite</a> under <a href="https://creativecommons.org/licenses/by/3.0/" title="CC BY 3.0">CC BY 3.0</a> accessed on <a href="https://game-icons.net/" title="Game-icons.net">Game-icons.net<a></p>
+	</div>
+	<!-- #footer--> 
+  
+  
 </body>
 
 </html>
